@@ -1,0 +1,21 @@
+{
+  "name": "pusaka6",
+  "version": "1.0.0",
+  "description": "pusaka6 is an automation testing tool based on k6",
+  "scripts": {
+    "test": "./run.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depapp/pusaka6.git"
+  },
+  "keywords": [
+    "k6"
+  ],
+  "author": "@depapp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depapp/pusaka6/issues"
+  },
+  "homepage": "https://github.com/depapp/pusaka6#readme"
+}
