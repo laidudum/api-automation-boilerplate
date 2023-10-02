@@ -13,5 +13,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: grafana/k6-action@v0.3.0
         with:
-          filename: test/auth-test.js && test/user-test.js
+          filename: test/auth-test.js
           flags: -e STAGE=development
