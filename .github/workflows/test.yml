@@ -14,4 +14,4 @@ jobs:
       - uses: grafana/k6-action@v0.3.0
         with:
           filename: test/auth-test.js
-          flags: -e STAGE=dev
+          flags: -e STAGE=development
