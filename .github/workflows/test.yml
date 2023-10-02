@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Setup k6
-      uses: grafana/k6-action@v0.3.0
+      - name: Setup k6
+        uses: grafana/k6-action@v0.3.0
 
-    - name: Run k6
-      run: npm run test
+      - name: Run k6
+        run: npm run test
