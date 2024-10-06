@@ -46,3 +46,14 @@ export function editUser(token, id, name, email, location) {
     }
     http.put(url, payload, params)
 }
+
+export function deleteUser(token, id) {
+    const url = `${config().User}/${id}`
+    const params = {
+        headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${token}`
+        }
+    }
+    return http.del(url, null, params)
+}
